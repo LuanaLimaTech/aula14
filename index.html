@@ -4,8 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        // AQUI O JS - ESSE EXECUTA PRIMEIRO
+    </script>
 </head>
 <body>
     
+
+
+
+
+
+    <script>
+        //AQUI O JS - ESSE EXECUTA DEPOIS
+
+        //alert("Olá,JS");
+        //alert("JavaScript");
+
+        //console.log("Olá, eu sou o JS e estou no console")
+
+
+        //VARIÁVEIS
+        var nome = "Luana";
+        var sobrenome = "Lima";
+
+        var texto = "Texto"; // STRING
+        var texto2 = 'Texto2';
+
+        var numero_inteiro = 10; // NUMBER
+        var numero_decimal = 10.1; // NUMBER
+        var logicos = true; // true ou false - verdadeiro ou falso - BOOLEAN
+        var nulo = "null"; //NULL
+        var indefinida; // UNDEFINED
+
+
+        //OBJETOS - OBJECT
+        //VETORES, LISTA - ARRAYS
+         
+
+        var resultado = numero_inteiro + numero_decimal;
+        alert(resultado);
+
+           // OPERADORES MATEMATICOS
+           var valor1 = 20;
+        var valor2 = 10;
+        var adicao = valor1 + valor2;
+        var mult = valor1 * valor2;
+        var divisao = valor1 / valor2;
+        var subtracao = valor1 - valor2;
+        var exponenciacao = valor1 ** 2;
+        var resto_da_divisao = 20 % 3;
+
+        // OPERADORES LOGICOS
+        var igual = valor1 == valor2;
+        var maior_igual = valor1 >= valor2;
+        var menor_igual = valor1 <= valor2;
+        
+        var v1 = '10';
+        var v2 = 10;
+        var igual_tipo_valor = v1 === v2; // COMPARA O TIPO E VALOR 
+        // RETORNA FALSE
+
+        var igual_valor = v1 == v2; // COMPARA O VALOR E NAO TIPO
+        // RETORNA TRUE
+
+
+        // FUNCOES BASICAS DE JS
+        var nome_informado = prompt("Digite seu nome");
+        alert("Olá " + nome_informado);
+
+        var confirmacao = confirm("Você deseja instalar nosso aplicativo?");
+        alert(confirmacao);
+
+    </script>
 </body>
 </html>
